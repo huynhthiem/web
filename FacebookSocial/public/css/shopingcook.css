@@ -1,0 +1,267 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+p{
+	margin:0;
+}
+
+
+
+
+.three-com h3,.leave-comment h3{
+	color: #1D1811;
+    font-size: 2em;
+    margin: 0;
+    font-style: normal;
+    padding: 1em 0;
+	}
+.three-com h3 span{
+	color: #f89406;
+    font-size: .7em;
+	}
+.three-com h3 label{
+	color:#AC915A;
+	}
+.tom-grid{
+	padding:2em 0;
+	border-bottom:1px solid #dddddd;
+	width: 100%;
+	}
+.tom{
+	float:left;
+	border: 1px dotted;
+	padding: .5em;
+	}
+.humour {
+	padding-left: 8em;
+	width: 100%;
+	}
+.tom-right{
+	float:left;
+	margin-left:2em;
+	width:80%;
+	}
+.tom-right h4{
+	color: #f89406;
+    font-size: 1.5em;
+    font-style: normal;
+    margin: 0;
+	}
+.tom-right p label{
+	color:#AFAFAF;
+	font-size:.9em;
+	margin:0;
+	font-style: normal;
+	}
+.tom-right p.lorem{
+	color:#838383;
+	font-size:14px;
+	margin:0;
+	line-height:30px;
+	font-style: normal;
+	}
+.Hardy{
+	float:left;
+	}
+.reply{
+	float:left;
+	margin-left:20em;
+	margin-top: .5em;
+	}
+.reply a{
+	padding: 7px 40px 7px 0px;
+    background: url(../images/update.png) no-repeat 20px 9px #AC915A;
+    padding-left: 3.3em;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+	text-decoration:none;
+	font-weight: 600;
+	font-style: normal;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
+	}
+.reply a:hover{
+	background:url(../images/update.png) no-repeat 20px 9px #f89406;
+	display:block;
+	text-decoration:none;
+	}
+.tom-grid:nth-child(4){
+	border-bottom:none;
+	}
+.three-com{
+	margin:3em 0;
+	}
+.leave-comment {
+	  margin: 3em 0 0;
+	}
+.leave-comment p{
+	color:#AFAFAF;
+	font-size: 14px;
+	margin: .5em 0 2em;
+	}
+.leave-comment input[type="text"],.leave-comment textarea,.leave-comment input[type="submit"]{
+	outline: none;
+	border: 1px solid #D4D3D3;
+	background: none;
+	padding: 15px 10px;
+	width: 60%;
+	font-size:14px;
+	}
+.leave-comment input[type="text"]:nth-child(2){
+	margin:1em 0;
+	}
+.leave-comment textarea{
+	resize:none;
+	min-height:200px;
+	margin:1em 0;
+	}
+.leave-comment input[type="submit"] {
+  outline: none;
+  font-size: 16px;
+  font-style: normal;
+  background:#f89406;
+  padding: 15px 0;
+  color: #fff;
+  display: block;
+  border: none;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+}
+.leave-comment input[type="submit"]:hovercook{
+	background:#AC915A;
+}
+/*--------social simptip--------*/
+
+/*-- //single --*/
+/*-----start-responsive-design------*/
+
+
+
+@media (max-width:991px){
+	
+	.leave-comment input[type="text"], .leave-comment textarea, .leave-comment input[type="submit"] {
+		width: 85%;
+	}
+	
+}
+@media (max-width:800px){
+	
+	.three-com {
+		margin: 0em 0 3em;
+	}
+	
+}
+
+@media (max-width:640px){
+	.three-com h3, .leave-comment h3 {
+		font-size: 1.8em;
+	}
+	
+	
+	.tom-right {
+		float: right;
+		margin-left: 0;
+	}
+	.reply {
+		margin-left: 12em;
+	}
+	
+}
+@media (max-width:480px){
+	.three-com h3, .leave-comment h3 {
+		font-size: 1.5em;
+	}
+	
+	.tom {
+		width: 17%;
+	}
+	.tom img{
+		width:100%;
+	}
+	.reply {
+		margin-left: 5em;
+	}
+	.leave-comment {
+		margin: 0;
+	}
+	.three-com {
+		margin: 0;
+	}
+	.leave-comment input[type="text"], .leave-comment textarea, .leave-comment input[type="submit"] {
+		width: 100%;
+		padding: 10px;
+	}
+	
+}
+@media (max-width:414px){
+	
+	.three-com h3 {
+		padding: 0;
+	}
+	.reply {
+		margin-left: 3em;
+	}
+	
+}
+@media (max-width:320px){
+	
+	
+	.cat-grid ul li a {
+		font-size: 13px;
+		padding: .5em 0.5em;
+	}
+	.newsletter-bottom-grid p,.top-social-icons a,.leave-comment p,.single p.tortor,.single-right p,.footercook-grd-left p,.footercook-grid ul li a,p.quod,ul.last1 li a,.sevices-list-grid ul li a {
+		font-size: 13px;
+	}
+	.leave-comment input[type="text"], .leave-comment textarea,.contact-left h2,.contact-left ul li {
+		font-size: 13px;
+	}
+	.contact-left ul {
+		padding: 0.5em 0 0;
+	}
+	.leave-comment input[type="submit"]{
+		font-size:14px;
+	}
+	.leave-comment textarea {
+		min-height: 160px;
+	}
+	.tom {
+		width: 25%;
+		padding: .3em;
+	}
+	.tom-right {
+		width: 70%;
+	}
+	.reply {
+		margin-left: 0em;
+	}
+	.tom-right p.lorem {
+		font-size: 13px;
+		margin: 1em 0 0;
+		line-height: 1.8em;
+	}
+	.tom-grid {
+		padding: 1.5em 0;
+	}
+	.tom-right h4 {
+		font-size: 1.3em;
+	}
+	.cat-grid ul {
+		padding: 0.5em 0 0;
+	}
+	.cat-grid h4 {
+		font-size: 1.5em;
+	}
+		
+}

@@ -1,0 +1,128 @@
+
+<div class="banner-bottom">
+	<div class="container"> 
+		<div class="banner-bottom-grids row">
+		
+			<div class=" animated wow slideInUp col-lg-4 col-md-4 col-sm-4 col-xs-12" data-wow-delay=".5s">
+				<div class="banner-bottom-grid-left-grid left1-grid grid-left-grid1">
+					<div class="banner-bottom-grid-left-grid1">
+						<img src="images/1.jpg" alt=" " class="img-responsive" />
+					</div>
+					<div class="banner-bottom-grid-left1-pos">
+						<p>Discount 45%</p>
+					</div>
+				</div>
+				<!-- banner-bottom-grid-left-grid -->
+				<div class=" left1-grid grid-left-grid1 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="banner-bottom-grid-left-grid1">
+						<img src="images/2.jpg" alt=" " class="img-responsive" />
+					</div>
+					<div class="banner-bottom-grid-left1-position">
+						<div class="banner-bottom-grid-left1-pos1">
+							<p>Latest New Collections</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 animated wow slideInRight" data-wow-delay=".5s">
+				<div class="banner-bottom-grid-left-grid grid-left-grid1">
+					<div class="banner-bottom-grid-left-grid1">
+						<img src="images/3.jpg" alt=" " class="img-responsive" />
+					</div>
+					<div class="grid-left-grid1-pos">
+						<p>top and classic designs <span>2016 Collection</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 animated wow slideInRight" data-wow-delay=".5s">
+				<div class="banner-bottom-grid-left-grid grid-left-grid1">
+					<div class="banner-bottom-grid-left-grid1">
+						<img src="images/3.jpg" alt=" " class="img-responsive" />
+					</div>
+					<div class="grid-left-grid1-pos">
+						<p>top and classic designs <span>2016 Collection</span></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--header-->
+<!-- //banner-bottom -->
+<!-- collections -->
+<div class="clearfix"></div>
+<div class="new-collections">
+	<div class="container">
+		<h3 class="animated wow zoomIn" data-wow-delay=".5s">New Collections</h3>
+			<p class="est animated wow zoomIn" data-wow-delay=".5s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
+			<div class="new-collections-grids">
+
+		<div class="row" ng-controller="auctionCtrl" >
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" ng-repeat="item in products" >
+				<a href="single.html" class="img-product"> <img ng-src="{{item.image}}" class="img-responsive img-responsive-product" alt="">
+				</a>
+					<div class="title label label-info">{{item.name}}</div>
+					<div class="info-product">
+						<div class="number-bids"><span class="label-number label label-default">Bids:</span> 
+						<span class="label label-info text-number-bids">{{item.numberBID}}</span></div>
+						
+						<div class="user-bids" >
+							<span class="label label-default user-name ">
+								Group 7 {{item.idUSer}}
+							</span>
+							<div class="price-product label label-info">
+								 {{item.costCurent}}$
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="timer-server label label-info" >
+							
+							<div  class="clockdiv{{item._id}}" >
+							    <span class="hidden">
+								<span class="days"></span>
+								<span class="smalltext">:</span>
+							  </span>
+							  <span>
+								<span class="hours"></span>
+								<span class="smalltext">:</span>
+							  </span>
+							  <span>
+								<span class="minutes"></span>
+								<span class="smalltext">:</span>
+							  </span>
+							  <span>
+								<span class="seconds"></span>
+								
+							  </div>
+							</div>
+							<br>
+							 
+							<div class="notify">{{errMessage}}</div>  
+							 
+							<form class="send-price" ng-submit="submitAuction(item._id)">
+								<input size="35" id="{{item._id}}" class="newPrice">
+								<input type="submit" name="Submit">
+							</form>
+
+						</div>
+						<div class="form-product">
+							<div class="price-pay-now label label-info">
+								200.000
+							</div>
+							<div class="submit-pay btn btn-primary">
+								BID Now
+							</div>
+						</div>
+			</div>
+				
+
+			
+			
+	<div class="clearfix"> </div>
+	</div>
+</div>
+			<div class="clearfix"> </div>
+		</div>

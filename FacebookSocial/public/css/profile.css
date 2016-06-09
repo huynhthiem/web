@@ -1,0 +1,25 @@
+#profile{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 20;
+}
+
+.panel-body{
+	border-color: #2d2d2d !important;
+}
+
+.panel-heading{
+	background-color: #2d2d2d !important;
+	border-color: #2d2d2d !important;
+}
+
+.panel-heading h3{
+	color: white;
+}
+.panel-footer{
+	padding: 20px 25px !important;
+}
+
+tbody td{
+	color: black;
+}

@@ -1,0 +1,378 @@
+.label{
+	display: block !important;
+}
+.btn{
+	display: block !important;
+}
+
+.img-responsive-product{
+	margin:0px auto;
+}
+.title.label{
+	font-size: 20px;
+	padding:5px 20%;
+	margin:5px !important;
+	text-align: center;
+}
+.number-bids{
+	display: inline-block;
+
+}
+.number-bids .label-number{
+	float:left;
+	padding:5px 15px;
+	margin-right: 5px;
+}
+
+.user-bids{
+	display: inline-block;
+}
+.text-number-bids{
+	width: 50px;
+	display: inline-block !important;
+	padding:5px 20px;
+}
+.user-name{
+	display: inline-block !important;
+	float:left;
+	margin:10px;
+	padding:5px 20px;
+}
+.price-product{
+	display: inline-block !important;
+	margin:10px;
+	padding:5px 20px;
+	
+}
+.timer-server{
+	letter-spacing: 3px;	
+	padding:10px;
+	font-size: 20px;
+	margin:10px;
+}
+.price-pay-now{
+	float:left;
+	padding: 5% 20%;
+	margin-right: 5px;
+	font-size: 100%;
+}
+.submit-pay{
+	display: inline-block !important;
+	padding: 4% 5%;
+	font-size: 100%;
+	border: 0px !important;
+}
+
+
+
+/*header*/
+
+.navbar-collapse.collapse.in{
+	display: block !important;
+}
+
+.sb-search.sb-search-open{
+	width: 35% !important;
+}
+#btn-navbar{
+	margin-right: 30%;
+	margin-bottom: 10px;
+}
+/* .header .container{
+	width: 90% !important;
+}
+ */
+.logo-nav{
+	padding:0px !important;
+	
+}
+/*@media(max-width: 767px){
+	
+	.logo-nav-left1{
+		width:100% !important;
+		margin-bottom: 0.5em !important;
+	}
+		.nav.navbar-nav{
+		margin-bottom:10px !important;
+	}
+	.navbar-collapse.collapse{
+		display: none !important;
+	}
+	.header-right{
+		width: 30% !important;
+	}
+	.header-grid-left ul li{
+		margin:0 0.3em !important;
+	}
+	.header-grid-left ul li a{
+		font-size: 15px !important;
+	}
+	.sb-search-input{
+		padding-right: 30px !important;	
+	}
+	.logo-nav-right{
+		clear: both !important;
+		float:left !important;
+		margin-right: 10%;
+	}
+	.sb-search{
+		right: 30% !important;
+	}
+	.sb-search.sb-search-open{
+		width: 60% !important;
+	}
+
+}*/
+
+@media(min-width: 560px) and (max-width: 767px){
+	.header-right{
+		margin-top: -55px !important;
+		width: 100%;
+	}
+	.sb-search.sb-search-open{
+	width: 70% !important;
+}
+	.logo-nav-left1{
+		width: 100% !important;
+	}
+	.sb-search{
+		right: 18% !important;
+		top:60px !important;
+	}
+	.logo-nav-left1{
+		float:right !important;
+	}
+	#btn-navbar{
+	margin-right: 0% !important;
+	margin-bottom: 10px;
+}
+}
+@media(min-width: 360px) and (max-width: 559px){
+	.sb-search.sb-search-open{
+	width: 70% !important;
+}
+	#btn-navbar{
+		margin-top: -60px;
+		
+	}
+	.navbar-toggle {
+		float: left !important;
+	}
+	.header-right{
+		margin-top:40px;
+		width: 100% !important;
+	}
+
+	.header-grid-left ul li{
+		margin-left:1em;
+		float: right;
+		margin-bottom: 0.3em;
+	}
+	.sb-search{
+		right: 10% !important;
+		top:60px !important;
+	}
+	.logo-nav-left1 {
+		width: 100% !important;
+	}
+}
+.header-grid-left ul li{
+	margin:1em;
+}
+@media(min-width: 991px) and (max-width: 1180px){
+	.sb-search{
+		right: 25% !important;
+	}
+	.header-right{
+		min-width: 30% !important;
+		
+	}
+	.header-grid-left ul li{
+		margin-left:1em;
+		margin-bottom: 0.3em;
+		
+	}
+	
+	
+
+}
+@media(min-width: 1181px){
+	.header-grid-left ul li{
+		font-size: 20px;
+		margin-top:0.5em !important;
+	}
+}
+.footer-grid-sub-grids{
+		padding:0px 60px;
+	}
+.logo-nav-left1{
+	margin-bottom: 1em;
+}
+.header-grid-left ul li{
+		margin-left:1em;
+		margin-bottom: 0.3em;
+	}
+@media(max-width: 991px)  and (min-width: 768px){
+	.header-right{
+		width: 35% !important;
+		clear: both;
+	}
+
+	.sb-search{
+		top:30px;
+		right: 8% !important;
+	}
+	.header-grid-left{
+		float:right !important;
+	}
+	.sb-search.sb-search-open{
+		width: 45% !important;
+	}
+}
+
+.img-responsive{
+	margin:0 auto;
+	margin-top:10px;
+}
+.row-about{
+	margin:2em;
+}
+.info{
+	padding:4em 2em;
+	
+	text-align: center;
+}
+.img-about{
+	border-radius: 50%;
+	margin-top: 2em;
+}
+@media(max-width: 991px){
+	.header-grid{
+		padding:0.7em 0px 0px 0px !important;
+	}
+	.header-grid-left .dropdown{
+	margin-right: 30px !important;
+	min-width:140px !important;
+}
+	.footer-grid{
+		float:left;
+		margin-bottom: 2em !important;
+	}
+	.footer-grid-sub-grids .footer-grid-sub-grid-right{
+	float:right;
+	width: 30%;
+	margin-right: 25%;
+	line-height: 60px;
+	text-align: center;
+	}
+
+	.footer-grid-sub-grids .footer-grid-sub-grid-left{
+	float:left;
+	margin-left: 30%;
+	width: 15%;
+}
+}
+.footer-grid h3:before{
+	background: none !important;
+}
+.footer-grid h3{
+	text-align: center;
+	/*border-bottom: 1px solid gray;*/
+}
+.footer-grid{
+	text-align: center !important;
+}
+.footer-grid-sub-grid-right h4{
+		line-height: 60px;
+    	text-align: center;
+}
+@media(min-width: 1180px){
+.sb-search{
+		right: 25% !important;
+	}
+}
+
+/*//file rule*/
+.rule-auctions{
+	padding:15px 5px;
+	border-bottom: 1px dashed gray;
+}
+/*//file phidangki*/
+.rn-title {
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight:bold;
+    padding-bottom: 3px;
+    border-bottom: dotted 1px #ccc; 
+}
+
+.rni-title {
+    font-size: 13px;
+    margin-bottom: 6px;
+    margin-bottom: 3px;
+}
+#pane-main {
+    background-color:#fff;
+    margin-top:1px;
+}
+#help-content {
+    padding:20px 20px;
+    background-color:#fff;
+}
+#related-news {
+    margin:20px;
+    padding-bottom:12px;    
+}
+
+.columns-3 li a:hover{
+	background-color: 	gray;
+	
+}
+
+
+/*// chinh sửa menu dropdown*/
+.dropdown-menu{
+	z-index: 100000000 !important;
+}
+.header-grid-left .dropdown{
+	margin-right: 60px;
+	min-width:140px !important;
+}
+.header-grid-left ul li a{
+	font-size: 15px;
+
+}
+.dropdown-menu{
+	left:0% !important;
+}
+
+.search-product{
+	background:white;
+	margin:3em;
+}
+.breadcrumbs{
+	padding:0.5em 0 !important;
+	background:#f5f5f5;
+}
+.logo-nav-left h1{
+	padding-top:10px;
+}
+
+/*footer cot 3*/
+@media(max-width: 484px){
+	.footer-grid-sub-grids .footer-grid-sub-grid-left{
+	float:left;
+	margin-left: 0% !important;
+	width: 35% !important;
+}
+.footer-grid-sub-grids .footer-grid-sub-grid-right{
+	float:right;
+	width: 50%;
+	margin-right: 10px;
+	line-height: 50px;
+	text-align: center;
+	}
+	.footer-grid-sub-grid-right {
+		margin: 0 !important;
+	}
+}
